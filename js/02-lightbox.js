@@ -21,13 +21,4 @@ const markup = galleryItems
 
 galaryListRef.innerHTML = markup;
 
-// galaryListRef.addEventListener('click', handleOpenModal);
-
-// function handleOpenModal(event) {
-//   event.preventDefault();
-//   if (!event.target.classList.contains('gallery__image')) {
-//     return;
-//   }
-// }
-
 new SimpleLightbox('.gallery__item a', {});
