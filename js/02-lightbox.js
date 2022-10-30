@@ -21,4 +21,7 @@ const markup = galleryItems
 
 galaryListRef.innerHTML = markup;
 
-new SimpleLightbox('.gallery__item a', {});
+const lightbox = new SimpleLightbox('.gallery a', {
+  captionsData: `alt`,
+  captionsDelay: 250,
+});
